@@ -120,6 +120,6 @@ export const jazzData = {
       { id: 3, name: "SoundCloud Playlist", link: "https://soundcloud.com/playlist/dummy", image: soundcloudImage },
       // Weitere Playlists ...
     ],
-    video: "https://www.youtube.com/embed/mM1dIwGO00w?si=6RnpCm9_5__A45_v"
+    video: "https://www.youtube.com/embed/VqhCQZaH4Vs?si=6BhomFTWq8PLM-70"
   }
 };

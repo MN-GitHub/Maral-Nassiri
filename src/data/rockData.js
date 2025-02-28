@@ -147,6 +147,6 @@ export const rockData = {
       { id: 3, name: "SoundCloud Playlist", link: "https://soundcloud.com/playlist/dummy", image: soundcloudImage },
       // Weitere Playlists ...
     ],
-    video: "https://www.youtube.com/embed/wRMrAQuccEo?si=pwf3iGv4aSCjG2DG"
+    video: "https://www.youtube.com/embed/HQmmM_qwG4k?si=dM5Tj8Cu4PvUO_iN"
   }
 };
