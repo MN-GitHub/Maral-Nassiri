@@ -1,0 +1,116 @@
+/* Gesamtcontainer für die genreIcons-Seite */
+.genre-icons-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: #222;
+  color: white;
+}
+
+/* Überschrift in Gold */
+.genre-icons-heading {
+  color: #ffcc00;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Container für die Karten */
+.genre-icons-cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+/* Einzelne genre-Icon-Karte – nun größer */
+.genre-icon-card {
+  background-color: #333;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s;
+  width: 200px; /* Festgelegte Breite für größere Karten */
+}
+
+.genre-icon-card:hover {
+  transform: scale(1.05);
+}
+
+/* Bild in der Karte – nun größer */
+.genre-icon-image {
+  width: 150px;  /* Erhöhte Breite für größere Kartenbilder */
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Künstlername */
+.genre-icon-name {
+  color: #ffcc00;
+  font-size: 1.5em;
+}
+
+/* Detailbereich für den ausgewählten Künstler */
+.genre-icon-detail {
+  background-color: #333;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  text-align: left;
+}
+
+.genre-icon-detail-heading {
+  color: #ffcc00;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.genre-icon-description {
+  font-family: "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Musikquiz im Detailbereich */
+.genre-icon-quiz {
+  background-color: #222;
+  padding: 15px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+}
+
+.genre-icon-quiz-heading {
+  color: #ffcc00;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.genre-icon-quiz-question {
+  margin-bottom: 10px;
+}
+
+.genre-icon-quiz-options {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.genre-icon-quiz-options li {
+  margin-bottom: 5px;
+}
+
+.genre-icon-quiz-answer {
+  padding: 10px 15px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+

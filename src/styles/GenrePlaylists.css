@@ -1,0 +1,122 @@
+/* Gesamtcontainer für die genrePlaylists-Seite */
+.genre-playlists-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+/* Überschrift in Gold */
+.genre-playlists-heading {
+  color: #ffcc00;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Container für die Playlist-Cards */
+.playlists-cards-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+/* Einzelne Playlist-Card – größere Darstellung */
+.playlist-card {
+  background-color: #333;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 15px;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s;
+  width: 220px;
+}
+
+.playlist-card:hover {
+  transform: scale(1.05);
+}
+
+/* Bild in der Playlist-Card */
+.playlist-card-image {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Name in der Playlist-Card */
+.playlist-card-name {
+  font-size: 1.3em;
+  color: #ffcc00;
+  margin: 0;
+}
+
+/* Video-Container */
+.video-container {
+  margin-bottom: 40px;
+}
+
+.video-container h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+/* Bericht- (Report-)Bereich */
+.report-section {
+  background-color: #333;
+  padding: 20px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.report-section h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.report-section textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.report-section button {
+  padding: 10px 15px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.report-section button:hover {
+  background-color: #ffdd44;
+}
+
+.submitted-report {
+  margin-top: 20px;
+  background-color: #222;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ffcc00;
+}
+
+.submitted-report h4 {
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+  

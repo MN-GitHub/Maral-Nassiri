@@ -1,0 +1,14 @@
+.subpage-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .subpage-heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+    

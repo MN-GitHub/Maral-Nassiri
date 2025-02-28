@@ -1,0 +1,65 @@
+/* Allgemeine Navbar-Stile */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  padding: 10px;
+  z-index: 1000; /* Stellt sicher, dass sie über anderen Elementen liegt */
+}
+
+.main-content {
+  padding-top: 60px; /* Verhindert, dass der Inhalt überlappt wird */
+}
+
+/* Vertikale Navbar */
+.navbar.vertical {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar.vertical ul {
+  width: 100%;
+}
+
+.navbar.vertical li {
+  width: 100%;
+  text-align: center;
+}
+
+/* Horizontale Navbar */
+.navbar.horizontal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar.horizontal ul {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.navbar.horizontal li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+}
+
+.navbar a:hover {
+  background-color: #222;
+}

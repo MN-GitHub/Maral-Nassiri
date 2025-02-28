@@ -1,0 +1,38 @@
+my-music-blog/
+├── package.json
+├── public/
+│   └── index.html
+└── src/
+    ├── App.jsx
+    ├── index.jsx
+    ├── index.css
+    ├── data/
+    │   ├── rapData.js
+    │   ├── rockData.js
+    │   └── jazzData.js
+    ├── components/
+    │   ├── Navbar.jsx
+    │   ├── GenreList.jsx
+    │   └── GenreSubpages/
+    │       ├── GenreHistory.jsx
+    │       ├── GenreIcons.jsx
+    │       ├── GenreAlbums.jsx
+    │       ├── GenreInstruments.jsx
+    │       ├── GenrePlaylists.jsx
+    │       └── SubpageLayout.jsx
+    ├── pages/
+    │   ├── Home.jsx
+    │   ├── Posts.jsx
+    │   ├── About.jsx
+    │   ├── Sources.jsx
+    │   └── GenrePage.jsx
+    └── styles/
+        ├── App.css
+        ├── Navbar.css
+        ├── GenrePage.css
+        ├── Subpages.css
+        ├── GenreHistory.css
+        ├── GenreIcons.css
+        ├── GenreAlbums.css
+        ├── GenreInstruments.css
+        └── GenrePlaylists.css

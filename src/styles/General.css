@@ -1,0 +1,34 @@
+/* Gemeinsamer Stil für alle Textblöcke */
+.text-block {
+    flex: 1;
+    background-color: #333;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: "Georgia", serif;
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px;
+    min-height: 150px;   /* Mindesthöhe */
+    max-height: 400px;   /* Maximale Höhe */
+    max-width: 600px;    /* Maximale Breite – passe den Wert nach Bedarf an */
+    width: 100%;         /* Nimmt die volle Breite des Containers ein, aber nicht mehr als max-width */
+    overflow-y: auto;    /* Scrollbalken, wenn der Inhalt zu lang ist */
+  }
+  
+  
+  .text-block-heading {
+    color: orange;        /* Textfarbe Orange */
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;   /* Zentriert ausgerichtet */
+  }
+  /* Foto-Container */
+.photo-box {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

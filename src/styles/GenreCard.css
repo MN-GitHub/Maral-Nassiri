@@ -1,0 +1,18 @@
+.genre-card {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.genre-image {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}

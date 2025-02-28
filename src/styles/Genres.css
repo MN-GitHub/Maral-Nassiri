@@ -1,0 +1,23 @@
+.genres {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  color: white;
+}
+
+.genres h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.genres ul {
+  list-style: none;
+  padding: 0;
+}
+
+.genres li {
+  background: #444;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}

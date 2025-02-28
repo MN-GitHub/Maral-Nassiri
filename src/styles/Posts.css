@@ -1,0 +1,117 @@
+.posts {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+/* Suchleiste für Beiträge */
+.search-bar {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Formularbereich für neue Beiträge */
+.add-post-section {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 30px;
+  width: 60%;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.add-post-section h2 {
+  color: #333;
+}
+
+.add-post-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-post-section input,
+.add-post-section textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-post-section textarea {
+  height: 100px;
+  resize: none;
+}
+
+.add-post-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.add-post-btn:hover {
+  background-color: #218838;
+}
+
+/* Beiträge-Liste */
+.posts-list {
+  margin-top: 30px;
+  width: 60%;
+  text-align: center;
+}
+
+.posts-list h2 {
+  color: #ffcc00;
+}
+
+.post-item {
+  background: #222;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.post-item h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.post-item p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  .add-post-section,
+  .posts-list,
+  .search-bar {
+    width: 80%;
+  }
+}
+
+/* Bild für "Neuen Beitrag hinzufügen" */
+.add-post-image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}

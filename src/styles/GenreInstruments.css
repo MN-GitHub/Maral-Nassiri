@@ -1,0 +1,91 @@
+/* Gesamtcontainer der genre-Instruments-Seite */
+.genre-instruments-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+}
+
+/* Überschrift in goldener Farbe */
+.genre-instruments-heading {
+  color: #ffcc00;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+/* Container für Textkasten und Foto, nebeneinander */
+.genre-instruments-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 900px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/* Textkasten mit goldenem Rahmen und ansprechender Schrift */
+.genre-instruments-text-box {
+  flex: 1;
+  background-color: #333;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* Container für das Foto */
+.genre-instruments-photo-box {
+  flex-shrink: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sehr kleines Foto – 70% kleiner als die ursprünglichen Maße (zum Beispiel: 80px auf ca. 24px) */
+.genre-instruments-photo {
+  width: 400px;
+  height: auto;
+  border-radius: 100px;
+  box-shadow: 0 4px 100px rgba(0, 0, 0, 0.3);
+}
+
+/* Musikquiz-Bereich */
+.genre-instruments-quiz {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.genre-instruments-quiz h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.quiz-question ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quiz-question li {
+  margin-bottom: 5px;
+}
+
+.quiz-answer {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
