@@ -13,7 +13,6 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
-    "chmod-cli": "^2.0.1",
     "vite": "^4.3.9"
   },
   "keywords": [],
